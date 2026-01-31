@@ -1,0 +1,98 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f6f8;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #0f172a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Layout using Flexbox */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Hover effect */
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+    margin: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+/* Image styling */
+section img {
+    width: 150px;
+    border-radius: 8px;
+}
+
+/* Contact form */
+form input,
+form textarea,
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+}
+
+/* Button hover */
+button {
+    background: #0f172a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #38bdf8;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #0f172a;
+    color: white;
+    padding: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    section {
+        margin: 10px;
+        padding: 20px;
+    }
+
+    section img {
+        width: 100px;
+    }
+}
